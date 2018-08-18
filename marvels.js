@@ -16,23 +16,28 @@ numbers[1] = 'Something';
 
 console.log(numbers);
 
-Start
+//Start
+//.unshift()
 
 numbers.unshift('SOMETHING')
 console.log(numbers);
 
 
-end
+//end
+//.pop() to extract numbers
 console.log("The element to be deleted is" + numbers.pop());
 
 console.log(numbers);
 
+
+//.push()
 numbers.push('Seven')
 console.log(numbers);
 
 
 
 //middle
+//.splice()
 numbers.splice(2,1, 'Something')
 
 console.log(numbers);
